@@ -9,6 +9,9 @@ Although a nice feature, pulling in dependencies for storage seemed overkill and
 to just spin up a quick library that generated a very unique token (it can be made even more unique
 via a 'salt' - something unique to that instance) and a expiration DateTime object for that token.
 
+I suppose you could use it for any scenario requiring a temporary, guaranteed to expire token - my use case
+was simply a password reset link token.
+
 Usage:
 --------
 
