@@ -1,0 +1,6 @@
+{
+	"name": "mattkirwan/temp-token",
+	"autoload": {
+		"psr-0": { "MattKirwan\\TempToken\\": "src/" }
+	}
+}
