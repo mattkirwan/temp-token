@@ -25,7 +25,7 @@ link to the unique url - and assuming the token matches and hasn't expired let t
 Installation:
 -------------
 
-For now it loves in my GitHub repo only, I can't really yet see the need for publishing on packagist just yet.
+For now it lives in my GitHub repo only, I can't really yet see the need for publishing on packagist just yet.
 You will need the following in your projects composer.json to include in your list of dependencies:
 
 	{
