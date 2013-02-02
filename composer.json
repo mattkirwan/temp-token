@@ -1,6 +1,21 @@
 {
 	"name": "mattkirwan/temp-token",
-	"description": "A nice and simple library which allows you to generate a random token and accompanying expiration date - perfect for 'forgotten password' links.",
+	"description": "A nice and simple library which allows you to generate a random token with an accompanying expiration date - perfect for creating 'forgotten password' URL's, however the temporary token could be used for anything.",
+	"keywords": [
+		"token",
+		"temporary",
+		"temp",
+		"generator",
+		"generate",
+		"user token",
+		"temp",
+		"create",
+		"password",
+		"forget",
+		"forgot",
+		"password URL",
+		"password link"
+	],
 	"type": "library",
 	"license": "GPL-2.0",
 	"authors": [
