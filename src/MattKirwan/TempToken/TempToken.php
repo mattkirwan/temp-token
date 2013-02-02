@@ -6,9 +6,7 @@ class TempToken
 {
 
 	public $token = null;
-
 	public $token_lifetime_secs = 3600;
-
 	public $token_expires_on;
 
 	private $unique_salt = null;	
