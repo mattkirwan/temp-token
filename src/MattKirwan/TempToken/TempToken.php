@@ -4,7 +4,6 @@ namespace MattKirwan\TempToken;
 
 class TempToken
 {
-
 	public $token = null;
 	public $token_lifetime_secs = 3600;
 	public $token_expires_on;
@@ -59,5 +58,4 @@ class TempToken
 	{
 		return $this->token_expires_on;
 	}
-
 }
