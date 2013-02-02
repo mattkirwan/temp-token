@@ -19,19 +19,20 @@ class TempToken
 		$this->unique_salt = $salt;
 	}
 
-	public function set_token_lifetime_secs($secs)
+	public function set_token_lifetime_secs($secs = null)
 	{
-		$this->token_lifetime_secs = $secs;
+		if(null !== $secs)
+		{
+			$this->token_lifetime_secs = $secs;
+		}		
 	}
 
 	public function set_date_format($date_format = null)
 	{
 		if(null !== $date_format)
 		{
-			$date_format = $this->date_format;
+			$this->date_format = $date_format;
 		}
-
-		$this->date_format = $date_format;
 	}
 
 	public function generate_token()
