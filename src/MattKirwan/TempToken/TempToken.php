@@ -24,8 +24,13 @@ class TempToken
 		$this->token_lifetime_secs = $secs;
 	}
 
-	public function set_date_format($date_format)
+	public function set_date_format($date_format = null)
 	{
+		if(null !== $date_format)
+		{
+			$date_format = $this->date_format;
+		}
+
 		$this->date_format = $date_format;
 	}
 
