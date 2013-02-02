@@ -14,7 +14,7 @@ class TempToken
 
 	private function __clone(){}
 
-	public function set_unique_salt($salt)
+	public function set_unique_salt($salt = null)
 	{
 		$this->unique_salt = $salt;
 	}
@@ -37,7 +37,7 @@ class TempToken
 
 	public function generate_token()
 	{
-		if(null !== $this->unique_salt)
+		if(null === $this->unique_salt)
 		{
 			$this->unique_salt = rand();
 		}
