@@ -25,16 +25,9 @@ link to the unique url - and assuming the token matches and hasn't expired let t
 Installation:
 -------------
 
-For now it lives in my GitHub repo only, I can't really yet see the need for publishing on packagist just yet.
-You will need the following in your projects composer.json to include in your list of dependencies:
+This library is published on packagist.org, to install you will need the following in your projects composer.json:
 
 	{
-		"repositories": [
-			{
-				"type": "vcs",
-				"url": "https://github.com/mattkirwan/temp-token"
-			}
-		],
 		"require": {
 			"mattkirwan/temp-token": "1.0.*"
 		},	
