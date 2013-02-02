@@ -61,6 +61,9 @@ Usage:
 	// Optionally set the token lifetime in seconds - defaults to 1 hour (3600 secs)
 	$temp_token->set_token_lifetime_secs(7200);
 
+	// Optionally set a date format for the token expiration DateTime object
+	$temp_token->set_date_format('d-m-Y');
+
 	// Generates a new token and token expiration
 	$temp_token->generate_token();
 
