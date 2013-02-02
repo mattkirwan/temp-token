@@ -1,5 +1,15 @@
 {
 	"name": "mattkirwan/temp-token",
+	"description": "A nice and simple library which allows you to generate a random token and accompanying expiration date - perfect for 'forgotten password' links.",
+	"type": "library",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Matt Kirwan",
+			"email": "matthewkirwan@gmail.com",
+			"homepage": "http://www.mattkirwan.com"
+		}
+	],
 	"autoload": {
 		"psr-0": { "MattKirwan\\TempToken\\": "src/" }
 	}
