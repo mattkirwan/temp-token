@@ -57,12 +57,10 @@ class TempToken
 
 	public function get_token()
 	{
-		if( null !== $this->token )
+		if(null === $this->token)
 		{
-			return $this->token;
+			$this->generate_token();
 		}
-
-		$this->generate_token();
 
 		return $this->token;
 	}
